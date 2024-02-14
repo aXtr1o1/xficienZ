@@ -1,12 +1,15 @@
+import tqdm
+import time
 import pprint
 import datetime
 
 dates=[]
 
-for i in range(2023,2054):
+for i in tqdm.trange(2023,2054):
     for j in range(1,13):
         l=[]
         sat=[]
+        time.sleep(0.05)
         for k in range(1,32):
             try:
                 date=datetime.datetime(i,j,k)
