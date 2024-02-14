@@ -1,0 +1,73 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+p.valid{
+    text-align: center;
+    color: #f30d0d;
+    font-weight: 500;
+    padding-top: 200px;
+  }
+  
+* {
+    box-sizing: border-box;
+  }
+.container {
+    width:50%;
+    position: relative;
+    left:25%;
+    border-radius: 5px;
+    height: 350px;
+    background-color: #003f72;
+    padding: 20px 0 30px 0;
+    border-radius: 30px;
+  }  
+@font-face {
+    font-family: "passageway";
+    src: url("passagewaylightit.otf")format("opentype");
+  }
+
+input,.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none; 
+  }
+input:hover,
+  .btn:hover {
+    opacity: 1;
+  }
+input[type=submit] {
+    background-color: #050a2f;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px ;
+  }
+.col {
+    float: left;
+    width: 50%;
+    padding: 0 50px;
+    margin-top: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+.row{
+      height: 300px;  
+  }
+.hide-md-lg {
+    display: none;
+  }
+  
