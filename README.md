@@ -15,6 +15,11 @@ After installation of all packages launch the flask web app by the command
 ```
 py app.py
 ```
+The web app gets hosted in the portnumber **5000**
 
-The web app gets hosted in the portnumber **5000** , Navigate to the port using a web browser and Enjoy using the web application!!
+Navigate to the port using a web browser
+
+Login into the webapplication using the username **rauf** and password as **rf2907** 
+
+Enjoy using the web application!!!
 
